@@ -4,7 +4,7 @@
 
 ## Introduction
 
-In this lab you will practice MySQL Subqueries and Action Queries. We will again use the publications database.
+In this lab you will practice SQL Subqueries and Action Queries. We will again use the publications database.
 
 Create a `solutions.ipynb` file in the `your-code` directory to record your solutions to all challenges.
 
@@ -26,9 +26,9 @@ Therefore, you will not be able to achieve the goal with a single SELECT query. 
 
 1. Calculate the royalty of each sale for each author.
 
-1. Using the output from Step 1 as a temp table, aggregate the total royalties for each title for each author.
+1. Using the output from Step 1 as a sub-table, aggregate the total royalties for each title for each author.
 
-1. Using the output from Step 2 as a temp table, calculate the total profits of each author by aggregating the advances and total royalties of each title.
+1. Using the output from Step 2 as a sub-table, calculate the total profits of each author by aggregating the advances and total royalties of each title.
 
 Below we'll guide you through each step. In your `solutions.ipynb`, please include the SELECT queries of each step so that your TA can review your problem-solving process.
 
